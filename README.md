@@ -149,7 +149,7 @@ npm run dev
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [Aakaru](https://github.com/aakaru)
 
 ---
 
