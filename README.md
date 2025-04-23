@@ -67,7 +67,7 @@ go run main.go
 #   Terminal B: React app ➡️
 npm run dev
 
-# 4) Open 🎉
+# 4) Open 
 #   👉 http://localhost:3000?username=YourName
 ```
 
@@ -142,7 +142,7 @@ npm run dev
 2. Fork it
 3. Create a feature branch (`git checkout -b feat/awesome`)
 4. Commit your changes (`git commit -m 'feat: awesome-feature'`)
-5.  Push & open a PR
+5. Push & open a PR
 
 ---
 
