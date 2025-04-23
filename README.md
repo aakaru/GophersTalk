@@ -1,5 +1,4 @@
 <div align="center">
-  🐹
   <h1>Gophers Talk <sup>v2.0</sup></h1>
   <p><i>Real-time chat where Go's concurrency meets React's brilliance</i></p>
   <br/>
@@ -39,16 +38,16 @@
 
 ## ✨ Features
 
-| Icon | Feature        | Description                                      |
-|:----:|:---------------|:-------------------------------------------------|
-| ⚡    | Blazing Speed  | <1ms message delivery via Go WebSockets          |
-| 👁️  | Presence       | Real-time online user list & status indicators   |
-| 💬   | Instant Chat   | Zero-lag, scrollable chat history                |
-| 🖌️  | Glass UI       | Glassmorphism panels & neon-green Gopher glow    |
-| 🎥   | Animations     | Fluid micro-interactions powered by Framer Motion|
-| 📱   | Responsive     | Device-agnostic—from iPhone to 4K screens        |
-| 🔐   | Secure         | Planned end-to-end encryption via WASM + Gocrypto |
-| 🔌   | Extensible     | Plugin system for themes, bots, & more           |
+| Feature        | Description                                      |
+|:---------------|:-------------------------------------------------|
+| Blazing Speed  | <1ms message delivery via Go WebSockets          |
+| Presence       | Real-time online user list & status indicators   |
+| Instant Chat   | Zero-lag, scrollable chat history                |
+| Glass UI       | Glassmorphism panels & neon-green Gopher glow    |
+| Animations     | Fluid micro-interactions powered by Framer Motion|
+| Responsive     | Device-agnostic—from iPhone to 4K screens        |
+| Secure         | Planned end-to-end encryption via WASM + Gocrypto |
+| Extensible     | Plugin system for themes, bots, & more           |
 
 ---
 
@@ -128,22 +127,22 @@ npm run dev
 
 ## 🛣️ Roadmap
 
-- ✅ Core chat & UI (v1.0)
-- 🔄 E2E Encryption (v2.0)
-- 📂 File & Image Sharing
-- 📜 Persistent History (DB integration)
-- 🔑 OAuth & JWT Authentication
-- 🎨 Theming & Plugin SDK
+- Core chat & UI (v1.0)
+- E2E Encryption (v2.0)
+- File & Image Sharing
+- Persistent History (DB integration)
+- OAuth & JWT Authentication
+- Theming & Plugin SDK
 
 ---
 
 ## 🤝 Contributing
 
 1. ⭐ Star the repo
-2. 🍴 Fork it
-3. 📝 Create a feature branch (`git checkout -b feat/awesome`)
-4. ✅ Commit your changes (`git commit -m 'feat: awesome-feature'`)
-5. 🚀 Push & open a PR
+2. Fork it
+3. Create a feature branch (`git checkout -b feat/awesome`)
+4. Commit your changes (`git commit -m 'feat: awesome-feature'`)
+5.  Push & open a PR
 
 ---
 
@@ -160,4 +159,4 @@ MIT © [Aakaru](https://github.com/aakaru)
 - **Tailwind CSS & Framer Motion** for stunning UI
 - ❤️ All contributors & early adopters
 
-<div align="center">Made with 🐹 & ☕ by the Gophers Talk team</div>
+<div align="center">Made with 🐹 & ☕ by the GophersTalk team</div>
