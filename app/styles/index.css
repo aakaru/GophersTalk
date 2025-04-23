@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define the animation */
+@keyframes subtleGradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@layer base {
+  body {
+    /* Apply the gradient and set initial size/position */
+    @apply bg-gradient-to-br from-darker via-dark to-darker min-h-screen;
+    background-size: 200% 200%; /* Make the gradient larger than the view */
+    background-attachment: fixed;
+    /* Apply the animation */
+    animation: subtleGradientShift 30s ease infinite;
+    /* Add subtle noise or pattern if desired */
+    /* background-image: url('/noise.png'); */ 
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme('colors.darker');
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.glass'); 
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('colors.neon-green'); 
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-glass backdrop-blur-md rounded-xl border border-[rgba(255,255,255,0.1)] shadow-glass;
+  }
+  
+  .neon-border {
+    /* Slightly stronger neon effect */
+    @apply border border-neon-green shadow-[0_0_8px_theme('colors.neon-green'),_0_0_15px_theme('colors.neon-green')];
+  }
+  
+  .message-bubble {
+    @apply glass-panel p-3 my-1.5 max-w-[80%]; /* Slightly reduced margin */
+  }
+  
+  .message-bubble-self {
+    @apply message-bubble ml-auto border-l-2 border-neon-green;
+  }
+  
+  .message-bubble-other {
+    @apply message-bubble mr-auto border-r-2 border-neon-yellow;
+  }
+  
+  .input-box {
+    /* Add transition for box-shadow */
+    @apply glass-panel w-full p-3 bg-darker/50 focus:ring-0 focus:outline-none transition-all duration-300;
+  }
+  .input-box:focus {
+    /* Enhanced neon glow on focus */
+    @apply shadow-[0_0_10px_theme('colors.neon-green'),_inset_0_0_5px_theme('colors.neon-green')/50] border border-neon-green;
+  }
+  
+  .btn {
+    @apply glass-panel px-4 py-2 hover:neon-border transition-all duration-300 select-none;
+  }
+} 
