@@ -138,7 +138,7 @@ npm run dev
 
 ## 🤝 Contributing
 
-1. ⭐ Star the repo
+1. ⭐ the repository
 2. Fork it
 3. Create a feature branch (`git checkout -b feat/awesome`)
 4. Commit your changes (`git commit -m 'feat: awesome-feature'`)
@@ -148,7 +148,7 @@ npm run dev
 
 ## 📄 License
 
-MIT © [Aakaru](https://github.com/aakaru)
+MIT © [MIT License](https://github.com/aakaru)
 
 ---
 
