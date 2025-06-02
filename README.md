@@ -1,13 +1,7 @@
 <div align="center">
   <h1>Gophers Talk <sup>v2.0</sup></h1>
   <p><i>Real-time chat where Go's concurrency meets React's brilliance</i></p>
-  <br/>
-  <a href="https://github.com/yourusername/GophersTalk/stargazers"><img src="https://img.shields.io/github/stars/yourusername/GophersTalk?style=social" alt="GitHub stars"/></a>
-  <a href="https://github.com/yourusername/GophersTalk/network/members"><img src="https://img.shields.io/github/forks/yourusername/GophersTalk?style=social" alt="GitHub forks"/></a>
-  <br/>
-  <a href="https://github.com/yourusername/GophersTalk/actions"><img src="https://img.shields.io/github/actions/workflow/status/yourusername/GophersTalk/ci.yml?branch=main&style=for-the-badge" alt="CI Passed"/></a>
-  <a href="https://img.shields.io/badge/license-MIT-blue.svg"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License MIT"/></a>
-</div>
+
 
 ---
 
